@@ -35,6 +35,13 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menu1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -91,6 +98,50 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.button6.Text = "button6";
             this.button6.UseVisualStyleBackColor = true;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menu1ToolStripMenuItem,
+            this.menu2ToolStripMenuItem,
+            this.menu3ToolStripMenuItem,
+            this.menu4ToolStripMenuItem,
+            this.menu5ToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.TabIndex = 6;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // menu1ToolStripMenuItem
+            // 
+            this.menu1ToolStripMenuItem.Name = "menu1ToolStripMenuItem";
+            this.menu1ToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.menu1ToolStripMenuItem.Text = "Menu1";
+            // 
+            // menu2ToolStripMenuItem
+            // 
+            this.menu2ToolStripMenuItem.Name = "menu2ToolStripMenuItem";
+            this.menu2ToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.menu2ToolStripMenuItem.Text = "Menu2";
+            // 
+            // menu3ToolStripMenuItem
+            // 
+            this.menu3ToolStripMenuItem.Name = "menu3ToolStripMenuItem";
+            this.menu3ToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.menu3ToolStripMenuItem.Text = "Menu3";
+            // 
+            // menu4ToolStripMenuItem
+            // 
+            this.menu4ToolStripMenuItem.Name = "menu4ToolStripMenuItem";
+            this.menu4ToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.menu4ToolStripMenuItem.Text = "Menu4";
+            // 
+            // menu5ToolStripMenuItem
+            // 
+            this.menu5ToolStripMenuItem.Name = "menu5ToolStripMenuItem";
+            this.menu5ToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.menu5ToolStripMenuItem.Text = "Menu5";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -102,9 +153,14 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -116,6 +172,12 @@ namespace Semana5_Grupo4_controles_de_formularios
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem menu1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem menu2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem menu3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem menu4ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem menu5ToolStripMenuItem;
     }
 }
 
