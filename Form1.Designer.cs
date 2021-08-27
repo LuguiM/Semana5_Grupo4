@@ -46,15 +46,18 @@ namespace Semana5_Grupo4_controles_de_formularios
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(28, 77);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(156, 71);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(215, 77);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(156, 71);
@@ -64,6 +67,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             // 
             // button3
             // 
+            this.button3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(398, 77);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(156, 71);
@@ -73,6 +77,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             // 
             // button4
             // 
+            this.button4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(28, 200);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(156, 71);
@@ -82,6 +87,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             // 
             // button5
             // 
+            this.button5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(215, 200);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(156, 71);
@@ -91,6 +97,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             // 
             // button6
             // 
+            this.button6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(398, 200);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(156, 71);
@@ -146,6 +153,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(800, 395);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
