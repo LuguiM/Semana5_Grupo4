@@ -21,5 +21,10 @@ namespace Semana5_Grupo4_controles_de_formularios
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
