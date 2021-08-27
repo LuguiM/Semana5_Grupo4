@@ -72,7 +72,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(194, 71);
             this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
+            this.button3.Text = "SI/NO";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button4
@@ -82,7 +82,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(192, 71);
             this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
+            this.button4.Text = "ACEPTAR";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
@@ -92,7 +92,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(193, 71);
             this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
+            this.button5.Text = "ACEPTAR";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // button6
@@ -102,7 +102,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(194, 71);
             this.button6.TabIndex = 5;
-            this.button6.Text = "button6";
+            this.button6.Text = "ACEPTAR";
             this.button6.UseVisualStyleBackColor = true;
             // 
             // menuStrip1
