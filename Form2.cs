@@ -6,7 +6,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+//hi
 namespace Semana5_Grupo4_controles_de_formularios
 {
     partial class Form2 : Form
