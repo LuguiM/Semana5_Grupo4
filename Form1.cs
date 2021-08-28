@@ -24,7 +24,7 @@ namespace Semana5_Grupo4_controles_de_formularios
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("mensaje aceptqar", "Aceptar");
+            MessageBox.Show("mensaje aceptar", "Aceptar");
         }
 
         private void menu4ToolStripMenuItem_Click(object sender, EventArgs e)
