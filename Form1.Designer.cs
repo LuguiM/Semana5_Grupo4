@@ -150,6 +150,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.menu4ToolStripMenuItem.Name = "menu4ToolStripMenuItem";
             this.menu4ToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.menu4ToolStripMenuItem.Text = "Acerca de";
+            this.menu4ToolStripMenuItem.Click += new System.EventHandler(this.menu4ToolStripMenuItem_Click);
             // 
             // menu5ToolStripMenuItem
             // 

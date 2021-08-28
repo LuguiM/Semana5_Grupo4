@@ -26,5 +26,11 @@ namespace Semana5_Grupo4_controles_de_formularios
         {
 
         }
+
+        private void menu4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 NewMDIChild = new Form2();
+            NewMDIChild.MdiParent = this;
+        }
     }
 }
