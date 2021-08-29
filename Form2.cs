@@ -102,7 +102,7 @@ namespace Semana5_Grupo4_controles_de_formularios
         }
         #endregion
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void labelCopyright_Click(object sender, EventArgs e)
         {
 
         }

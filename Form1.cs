@@ -62,5 +62,11 @@ namespace Semana5_Grupo4_controles_de_formularios
             MessageBox.Show("Has elegido la opcion Aceptar/Cancelar", "Opcion Aceptar/Cancelar", MessageBoxButtons.OKCancel);
 
         }
+
+        private void menu5ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ayuda AYUDA = new ayuda();
+            _ = AYUDA.ShowDialog();
+        }
     }
 }
