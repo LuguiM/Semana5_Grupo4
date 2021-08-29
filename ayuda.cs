@@ -23,10 +23,7 @@ namespace Semana5_Grupo4_controles_de_formularios
 
         }
 
-        private void ayuda_Load(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void label1_Click(object sender, EventArgs e)
         {
