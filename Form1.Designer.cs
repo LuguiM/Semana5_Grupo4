@@ -235,8 +235,9 @@ namespace Semana5_Grupo4_controles_de_formularios
             // menu5ToolStripMenuItem
             // 
             this.menu5ToolStripMenuItem.Name = "menu5ToolStripMenuItem";
-            this.menu5ToolStripMenuItem.Size = new System.Drawing.Size(98, 34);
-            this.menu5ToolStripMenuItem.Text = "AYUDA";
+            this.menu5ToolStripMenuItem.Size = new System.Drawing.Size(90, 34);
+            this.menu5ToolStripMenuItem.Text = "Ayuda";
+            this.menu5ToolStripMenuItem.Click += new System.EventHandler(this.menu5ToolStripMenuItem_Click);
             // 
             // Form1
             // 
