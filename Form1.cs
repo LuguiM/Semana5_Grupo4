@@ -35,3 +35,7 @@ namespace Semana5_Grupo4_controles_de_formularios
         }
     }
 }
+orm2 NewMDIChild = new Form2();
+NewMDIChild.MdiParent = this;
+NewMDIChild.Show();
+        }
