@@ -15,6 +15,12 @@ namespace Semana5_Grupo4_controles_de_formularios
         public ayuda()
         {
             InitializeComponent();
+            
+        }
+
+        private void ayuda_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

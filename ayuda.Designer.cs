@@ -38,6 +38,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.ClientSize = new System.Drawing.Size(471, 454);
             this.Name = "ayuda";
             this.Text = "ayuda";
+            this.Load += new System.EventHandler(this.ayuda_Load);
             this.ResumeLayout(false);
 
         }
