@@ -37,18 +37,18 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.button6 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menu1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menu2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menu3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menu4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menu5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.guardadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuevosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.guardarEnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.guardarEnToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.antiguosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.actualesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuevosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,7 +57,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(51, 142);
-            this.button1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button1.Margin = new System.Windows.Forms.Padding(6);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(352, 131);
             this.button1.TabIndex = 0;
@@ -70,7 +70,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(460, 142);
-            this.button2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button2.Margin = new System.Windows.Forms.Padding(6);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(354, 131);
             this.button2.TabIndex = 1;
@@ -83,7 +83,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(865, 142);
-            this.button3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button3.Margin = new System.Windows.Forms.Padding(6);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(356, 131);
             this.button3.TabIndex = 2;
@@ -96,7 +96,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(51, 369);
-            this.button4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button4.Margin = new System.Windows.Forms.Padding(6);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(352, 131);
             this.button4.TabIndex = 3;
@@ -109,7 +109,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(460, 369);
-            this.button5.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button5.Margin = new System.Windows.Forms.Padding(6);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(354, 131);
             this.button5.TabIndex = 4;
@@ -122,7 +122,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(865, 369);
-            this.button6.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.button6.Margin = new System.Windows.Forms.Padding(6);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(356, 131);
             this.button6.TabIndex = 5;
@@ -143,7 +143,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(11, 4, 0, 4);
-            this.menuStrip1.Size = new System.Drawing.Size(1689, 42);
+            this.menuStrip1.Size = new System.Drawing.Size(1326, 42);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -157,6 +157,24 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.menu1ToolStripMenuItem.Size = new System.Drawing.Size(116, 34);
             this.menu1ToolStripMenuItem.Text = "Archivos ";
             // 
+            // abrirToolStripMenuItem
+            // 
+            this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
+            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(231, 40);
+            this.abrirToolStripMenuItem.Text = "Abrir ";
+            // 
+            // guardadosToolStripMenuItem
+            // 
+            this.guardadosToolStripMenuItem.Name = "guardadosToolStripMenuItem";
+            this.guardadosToolStripMenuItem.Size = new System.Drawing.Size(231, 40);
+            this.guardadosToolStripMenuItem.Text = "Guardados";
+            // 
+            // nuevosToolStripMenuItem
+            // 
+            this.nuevosToolStripMenuItem.Name = "nuevosToolStripMenuItem";
+            this.nuevosToolStripMenuItem.Size = new System.Drawing.Size(231, 40);
+            this.nuevosToolStripMenuItem.Text = "Nuevos ";
+            // 
             // menu2ToolStripMenuItem
             // 
             this.menu2ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -165,6 +183,18 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.menu2ToolStripMenuItem.Name = "menu2ToolStripMenuItem";
             this.menu2ToolStripMenuItem.Size = new System.Drawing.Size(111, 34);
             this.menu2ToolStripMenuItem.Text = "Guardar ";
+            // 
+            // guardarEnToolStripMenuItem
+            // 
+            this.guardarEnToolStripMenuItem.Name = "guardarEnToolStripMenuItem";
+            this.guardarEnToolStripMenuItem.Size = new System.Drawing.Size(278, 40);
+            this.guardarEnToolStripMenuItem.Text = "Guardar como...";
+            // 
+            // guardarEnToolStripMenuItem1
+            // 
+            this.guardarEnToolStripMenuItem1.Name = "guardarEnToolStripMenuItem1";
+            this.guardarEnToolStripMenuItem1.Size = new System.Drawing.Size(278, 40);
+            this.guardarEnToolStripMenuItem1.Text = "Guardar en...";
             // 
             // menu3ToolStripMenuItem
             // 
@@ -176,6 +206,24 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.menu3ToolStripMenuItem.Size = new System.Drawing.Size(121, 34);
             this.menu3ToolStripMenuItem.Text = "Proyectos";
             this.menu3ToolStripMenuItem.Click += new System.EventHandler(this.menu3ToolStripMenuItem_Click);
+            // 
+            // antiguosToolStripMenuItem
+            // 
+            this.antiguosToolStripMenuItem.Name = "antiguosToolStripMenuItem";
+            this.antiguosToolStripMenuItem.Size = new System.Drawing.Size(214, 40);
+            this.antiguosToolStripMenuItem.Text = "Antiguos";
+            // 
+            // actualesToolStripMenuItem
+            // 
+            this.actualesToolStripMenuItem.Name = "actualesToolStripMenuItem";
+            this.actualesToolStripMenuItem.Size = new System.Drawing.Size(214, 40);
+            this.actualesToolStripMenuItem.Text = "Actuales";
+            // 
+            // nuevosToolStripMenuItem1
+            // 
+            this.nuevosToolStripMenuItem1.Name = "nuevosToolStripMenuItem1";
+            this.nuevosToolStripMenuItem1.Size = new System.Drawing.Size(214, 40);
+            this.nuevosToolStripMenuItem1.Text = "Nuevos ";
             // 
             // menu4ToolStripMenuItem
             // 
@@ -190,60 +238,12 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.menu5ToolStripMenuItem.Size = new System.Drawing.Size(98, 34);
             this.menu5ToolStripMenuItem.Text = "AYUDA";
             // 
-            // abrirToolStripMenuItem
-            // 
-            this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
-            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
-            this.abrirToolStripMenuItem.Text = "Abrir ";
-            // 
-            // guardadosToolStripMenuItem
-            // 
-            this.guardadosToolStripMenuItem.Name = "guardadosToolStripMenuItem";
-            this.guardadosToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
-            this.guardadosToolStripMenuItem.Text = "Guardados";
-            // 
-            // nuevosToolStripMenuItem
-            // 
-            this.nuevosToolStripMenuItem.Name = "nuevosToolStripMenuItem";
-            this.nuevosToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
-            this.nuevosToolStripMenuItem.Text = "Nuevos ";
-            // 
-            // guardarEnToolStripMenuItem
-            // 
-            this.guardarEnToolStripMenuItem.Name = "guardarEnToolStripMenuItem";
-            this.guardarEnToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
-            this.guardarEnToolStripMenuItem.Text = "Guardar como...";
-            // 
-            // guardarEnToolStripMenuItem1
-            // 
-            this.guardarEnToolStripMenuItem1.Name = "guardarEnToolStripMenuItem1";
-            this.guardarEnToolStripMenuItem1.Size = new System.Drawing.Size(315, 40);
-            this.guardarEnToolStripMenuItem1.Text = "Guardar en...";
-            // 
-            // antiguosToolStripMenuItem
-            // 
-            this.antiguosToolStripMenuItem.Name = "antiguosToolStripMenuItem";
-            this.antiguosToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
-            this.antiguosToolStripMenuItem.Text = "Antiguos";
-            // 
-            // actualesToolStripMenuItem
-            // 
-            this.actualesToolStripMenuItem.Name = "actualesToolStripMenuItem";
-            this.actualesToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
-            this.actualesToolStripMenuItem.Text = "Actuales";
-            // 
-            // nuevosToolStripMenuItem1
-            // 
-            this.nuevosToolStripMenuItem1.Name = "nuevosToolStripMenuItem1";
-            this.nuevosToolStripMenuItem1.Size = new System.Drawing.Size(315, 40);
-            this.nuevosToolStripMenuItem1.Text = "Nuevos ";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
-            this.ClientSize = new System.Drawing.Size(1689, 777);
+            this.ClientSize = new System.Drawing.Size(1326, 664);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -252,7 +252,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
