@@ -76,6 +76,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.button2.TabIndex = 1;
             this.button2.Text = "ACEPTAR/CANCELAR";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -99,8 +100,9 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(352, 131);
             this.button4.TabIndex = 3;
-            this.button4.Text = "ACEPTAR";
+            this.button4.Text = "Exclavacion";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -111,8 +113,9 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(354, 131);
             this.button5.TabIndex = 4;
-            this.button5.Text = "ACEPTAR";
+            this.button5.Text = "Interrogacion";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -123,8 +126,9 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(356, 131);
             this.button6.TabIndex = 5;
-            this.button6.Text = "ACEPTAR";
+            this.button6.Text = "Error";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // menuStrip1
             // 
@@ -171,6 +175,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.menu3ToolStripMenuItem.Name = "menu3ToolStripMenuItem";
             this.menu3ToolStripMenuItem.Size = new System.Drawing.Size(121, 34);
             this.menu3ToolStripMenuItem.Text = "Proyectos";
+            this.menu3ToolStripMenuItem.Click += new System.EventHandler(this.menu3ToolStripMenuItem_Click);
             // 
             // menu4ToolStripMenuItem
             // 

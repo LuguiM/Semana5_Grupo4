@@ -19,6 +19,7 @@ namespace Semana5_Grupo4_controles_de_formularios
 
         private void button3_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Has elegido la opcion Si/No", "Opcion Si/No", MessageBoxButtons.YesNo);
 
         }
 
@@ -32,6 +33,34 @@ namespace Semana5_Grupo4_controles_de_formularios
             Form2 NewMDIChild = new Form2();
             NewMDIChild.MdiParent = this;
             NewMDIChild.Show();
+        }
+
+        private void menu3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Has elegido la opcion Exclamacion", "Opcion Exclamacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Has elegido la opcion Interrogacion", "Opcion Interrogacion", MessageBoxButtons.OK, MessageBoxIcon.Question);
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Has elegido la opcion Error", "Opcion Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
