@@ -15,7 +15,7 @@ namespace Semana5_Grupo4_controles_de_formularios
         public Form1()
         {
             InitializeComponent();
-        }//prueba
+        }
 
         private void button3_Click(object sender, EventArgs e)
         {
