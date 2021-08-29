@@ -41,6 +41,14 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.menu3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menu4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menu5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.abrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.guardadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nuevosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.guardarEnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.guardarEnToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.antiguosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.actualesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nuevosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -137,18 +145,29 @@ namespace Semana5_Grupo4_controles_de_formularios
             // 
             // menu1ToolStripMenuItem
             // 
+            this.menu1ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.abrirToolStripMenuItem,
+            this.guardadosToolStripMenuItem,
+            this.nuevosToolStripMenuItem});
             this.menu1ToolStripMenuItem.Name = "menu1ToolStripMenuItem";
             this.menu1ToolStripMenuItem.Size = new System.Drawing.Size(116, 34);
             this.menu1ToolStripMenuItem.Text = "Archivos ";
             // 
             // menu2ToolStripMenuItem
             // 
+            this.menu2ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.guardarEnToolStripMenuItem,
+            this.guardarEnToolStripMenuItem1});
             this.menu2ToolStripMenuItem.Name = "menu2ToolStripMenuItem";
             this.menu2ToolStripMenuItem.Size = new System.Drawing.Size(111, 34);
             this.menu2ToolStripMenuItem.Text = "Guardar ";
             // 
             // menu3ToolStripMenuItem
             // 
+            this.menu3ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.antiguosToolStripMenuItem,
+            this.actualesToolStripMenuItem,
+            this.nuevosToolStripMenuItem1});
             this.menu3ToolStripMenuItem.Name = "menu3ToolStripMenuItem";
             this.menu3ToolStripMenuItem.Size = new System.Drawing.Size(121, 34);
             this.menu3ToolStripMenuItem.Text = "Proyectos";
@@ -165,6 +184,54 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.menu5ToolStripMenuItem.Name = "menu5ToolStripMenuItem";
             this.menu5ToolStripMenuItem.Size = new System.Drawing.Size(98, 34);
             this.menu5ToolStripMenuItem.Text = "AYUDA";
+            // 
+            // abrirToolStripMenuItem
+            // 
+            this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
+            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
+            this.abrirToolStripMenuItem.Text = "Abrir ";
+            // 
+            // guardadosToolStripMenuItem
+            // 
+            this.guardadosToolStripMenuItem.Name = "guardadosToolStripMenuItem";
+            this.guardadosToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
+            this.guardadosToolStripMenuItem.Text = "Guardados";
+            // 
+            // nuevosToolStripMenuItem
+            // 
+            this.nuevosToolStripMenuItem.Name = "nuevosToolStripMenuItem";
+            this.nuevosToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
+            this.nuevosToolStripMenuItem.Text = "Nuevos ";
+            // 
+            // guardarEnToolStripMenuItem
+            // 
+            this.guardarEnToolStripMenuItem.Name = "guardarEnToolStripMenuItem";
+            this.guardarEnToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
+            this.guardarEnToolStripMenuItem.Text = "Guardar como...";
+            // 
+            // guardarEnToolStripMenuItem1
+            // 
+            this.guardarEnToolStripMenuItem1.Name = "guardarEnToolStripMenuItem1";
+            this.guardarEnToolStripMenuItem1.Size = new System.Drawing.Size(315, 40);
+            this.guardarEnToolStripMenuItem1.Text = "Guardar en...";
+            // 
+            // antiguosToolStripMenuItem
+            // 
+            this.antiguosToolStripMenuItem.Name = "antiguosToolStripMenuItem";
+            this.antiguosToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
+            this.antiguosToolStripMenuItem.Text = "Antiguos";
+            // 
+            // actualesToolStripMenuItem
+            // 
+            this.actualesToolStripMenuItem.Name = "actualesToolStripMenuItem";
+            this.actualesToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
+            this.actualesToolStripMenuItem.Text = "Actuales";
+            // 
+            // nuevosToolStripMenuItem1
+            // 
+            this.nuevosToolStripMenuItem1.Name = "nuevosToolStripMenuItem1";
+            this.nuevosToolStripMenuItem1.Size = new System.Drawing.Size(315, 40);
+            this.nuevosToolStripMenuItem1.Text = "Nuevos ";
             // 
             // Form1
             // 
@@ -204,6 +271,14 @@ namespace Semana5_Grupo4_controles_de_formularios
         private System.Windows.Forms.ToolStripMenuItem menu3ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem menu4ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem menu5ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem abrirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem guardadosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nuevosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem guardarEnToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem guardarEnToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem antiguosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem actualesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nuevosToolStripMenuItem1;
     }
 }
 
