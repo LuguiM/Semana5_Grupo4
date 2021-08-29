@@ -60,6 +60,7 @@ namespace Semana5_Grupo4_controles_de_formularios
 
         private void button2_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Has elegido la opcion Aceptar/Cancelar", "Opcion Aceptar/Cancelar", MessageBoxButtons.OKCancel);
 
         }
     }
