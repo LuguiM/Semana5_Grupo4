@@ -8,11 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-//coment for errase one
-//this is a work form
-//working together 
-//we work in a collaborative group to crate it 
-//good work 
 
 namespace Semana5_Grupo4_controles_de_formularios
 {
