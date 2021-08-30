@@ -49,6 +49,7 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.nuevosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menu4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menu5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sALIRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -133,7 +134,8 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.menu2ToolStripMenuItem,
             this.menu3ToolStripMenuItem,
             this.menu4ToolStripMenuItem,
-            this.menu5ToolStripMenuItem});
+            this.menu5ToolStripMenuItem,
+            this.sALIRToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(723, 27);
@@ -232,6 +234,13 @@ namespace Semana5_Grupo4_controles_de_formularios
             this.menu5ToolStripMenuItem.Text = "Ayuda";
             this.menu5ToolStripMenuItem.Click += new System.EventHandler(this.menu5ToolStripMenuItem_Click);
             // 
+            // sALIRToolStripMenuItem
+            // 
+            this.sALIRToolStripMenuItem.Name = "sALIRToolStripMenuItem";
+            this.sALIRToolStripMenuItem.Size = new System.Drawing.Size(69, 23);
+            this.sALIRToolStripMenuItem.Text = "SALIR";
+            this.sALIRToolStripMenuItem.Click += new System.EventHandler(this.sALIRToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -277,6 +286,7 @@ namespace Semana5_Grupo4_controles_de_formularios
         private System.Windows.Forms.ToolStripMenuItem antiguosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem actualesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nuevosToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem sALIRToolStripMenuItem;
     }
 }
 

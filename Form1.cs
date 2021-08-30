@@ -69,5 +69,10 @@ namespace Semana5_Grupo4_controles_de_formularios
             ayuda AYUDA = new ayuda();
             _ = AYUDA.ShowDialog();
         }
+
+        private void sALIRToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
